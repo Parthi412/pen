@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Li from './Li';
-import { BrowserRouter,Routes,Route, Router } from 'react-router-dom';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Show from './Show';
 
 

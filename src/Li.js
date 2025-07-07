@@ -1,7 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+
 import { useSelector } from "react-redux";
-import { addCart,delToCart } from './Crete';
+import { addCart} from './Crete';
 import { useDispatch } from 'react-redux';
 
 const Li =()=> {
@@ -21,22 +20,7 @@ const Li =()=> {
         price: "$50,000",
         img: "https://i03.appmifile.com/327_item_in/06/08/2024/784824caf4ebe3e6cef22a2c34de5e66.jpg?thumb=1&w=500&f=webp&q=85"
     },]
-    const redmi = [{
-        id: "4",
-        tittle: "Redmi Note 14 Pro+ 5G",
-        price: "20,000",
-        img: "https://i03.appmifile.com/942_item_in/17/12/2024/35ce3d67c8df46482bcf534c9339e578.png?thumb=1&w=500&f=webp&q=85"
-    }, {
-        id: "5",
-        tittle: "Redmi Note 14 Pro 5",
-        price: "15,000",
-        img: "https://i03.appmifile.com/201_item_in/17/12/2024/0321927c81d71d28eb19b7ac43b4c86d.png?thumb=1&w=500&f=webp&q=85"
-    }, {
-        id: "6",
-        tittle: "Redmi Note 14 Pro 5",
-        price: "15,000",
-        img: "https://i03.appmifile.com/201_item_in/17/12/2024/0321927c81d71d28eb19b7ac43b4c86d.png?thumb=1&w=500&f=webp&q=85"
-    }]
+ 
 
     const ironCa=useSelector((state)=>state.cart.cartItem)
     const dis=useDispatch();
